@@ -58,3 +58,47 @@ main {
   color: #dee1e4;
   border: 1px solid #dee1e4;
 }
+
+.list-content {
+  padding-top: 30px;
+  padding-left: 50px;
+}
+
+.list-content .box {
+  margin-top: 20px;
+}
+
+.list-content .title-task {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.checkbox {
+  display: inline-block;
+  height: 15px;
+  color: #6bc4ae;
+  border: 1px solid #6bc4ae;
+  border-radius: 50%;
+  font-size: bold;
+  line-height: 15px;
+}
+
+.description-task {
+  padding-top: 15px;
+}
+
+.box-task {
+  display: inline-block;
+  font-size: 10px;
+  color: white;
+  border-radius: 20px;
+  padding: 8px;
+}
+
+.box-task.edit {
+  background-color: #47adf1;
+}
+
+.box-task.goals {
+  background-color: #9c72e4;
+}
