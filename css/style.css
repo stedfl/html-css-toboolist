@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #f6f8f9;
+}
+
+/* HEADER */
+header {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.contain {
+  background-color: #ffffff;
+}
+
+header img {
+  vertical-align: middle;
+}
