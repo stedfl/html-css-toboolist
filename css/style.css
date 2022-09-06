@@ -32,6 +32,7 @@ main {
   padding-bottom: 50px;
 }
 
+/* BUTTON BAR */
 .top-bar {
   font-size: 15px;
   height: 60px;
@@ -59,6 +60,7 @@ main {
   border: 1px solid #dee1e4;
 }
 
+/* TODO LIST */
 .list-content {
   padding-top: 30px;
   padding-left: 50px;
@@ -73,12 +75,14 @@ main {
   font-size: 20px;
 }
 
+/* CHECKBOX */
 .checkbox {
   display: inline-block;
   height: 15px;
-  border-radius: 50%;
+  border-radius: 100%;
   font-size: bold;
   line-height: 15px;
+  padding: 3px;
 }
 
 .checkbox.done {
@@ -94,8 +98,8 @@ main {
 .description-task {
   padding-top: 15px;
 }
-/* 
-TASK BOX */
+
+/* TASK BOX */
 .box-task {
   display: inline-block;
   font-size: 10px;
