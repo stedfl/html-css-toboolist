@@ -23,3 +23,28 @@ header {
 header img {
   vertical-align: middle;
 }
+
+/* MAIN */
+main {
+  width: 70%;
+  height: 800px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.top-bar {
+  font-size: 15px;
+  height: 60px;
+  border-bottom: 1px solid #f6f8f9;
+  padding-left: 50px;
+  line-height: 60px;
+}
+
+.top-bar .button {
+  display: inline-block;
+  height: 15px;
+  line-height: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
