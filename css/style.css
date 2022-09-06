@@ -48,3 +48,13 @@ main {
   border-radius: 5px;
   font-weight: bold;
 }
+
+.top-bar .task.button {
+  background-color: #47adf1;
+  color: white;
+}
+
+.top-bar .section.button {
+  color: #dee1e4;
+  border: 1px solid #dee1e4;
+}
