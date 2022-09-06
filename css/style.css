@@ -27,9 +27,9 @@ header img {
 /* MAIN */
 main {
   width: 70%;
-  height: 800px;
   margin: auto;
   margin-top: 50px;
+  padding-bottom: 50px;
 }
 
 .top-bar {
@@ -76,17 +76,26 @@ main {
 .checkbox {
   display: inline-block;
   height: 15px;
-  color: #6bc4ae;
-  border: 1px solid #6bc4ae;
   border-radius: 50%;
   font-size: bold;
   line-height: 15px;
 }
 
+.checkbox.done {
+  color: #6bc4ae;
+  border: 1px solid #6bc4ae;
+}
+
+.checkbox.undone {
+  color: #eb5b54;
+  border: 1px solid #eb5b54;
+}
+
 .description-task {
   padding-top: 15px;
 }
-
+/* 
+TASK BOX */
 .box-task {
   display: inline-block;
   font-size: 10px;
@@ -101,4 +110,20 @@ main {
 
 .box-task.goals {
   background-color: #9c72e4;
+}
+
+.box-task.recru {
+  background-color: #64c0a9;
+}
+
+.box-task.mobile {
+  background-color: #dc902e;
+}
+
+.box-task.web {
+  background-color: #d863a1;
+}
+
+.box-task.sales {
+  background-color: #b0c926;
 }
